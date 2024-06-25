@@ -1,0 +1,497 @@
+
+
+@media only screen and (max-width:1090px){
+    .name_img{
+        width: 399px;
+        height: 300px;
+    }
+    .nach_img{
+        width: 139px;
+        height: 111px;
+    }
+    .price_name{
+        padding: 5px 33px 5px 26px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .name_img{
+        width: 409px;
+        height: 300px;
+    }
+    .nachinka_list{
+        display: grid;
+        grid-template-columns: 1fr 233px 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+    
+    
+        margin-top: 12px;
+    }
+    .img_nach{
+        width: 317px;
+        height:300px ;
+    }
+}
+@media only screen and (max-width:999px){
+    .price_item{
+        margin: 25px;
+    }
+    .nav_bar.responsive {position: relative;}
+
+  .nav_bar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      
+    }
+    .nav_bar.responsive a {
+      
+      display: block;
+     
+      font-size: 12px;
+        
+        height: 20px;
+    }
+    
+    .nav_bar a {display: none; }
+      
+     
+      .line{display: none;}
+      .nav_bar{
+       display: flex;
+       align-items: flex-end;
+      flex-direction: column;
+      margin-right: 37px;
+
+   
+      }
+        
+      
+      
+      
+      
+      .nav_bar a.icon {
+          float: right;
+          display: block;
+          
+          width: 50px;
+          height:50px;
+         
+          position: relative;
+
+        }
+        .icon{
+       margin-top: -10px;
+        }
+        a.icon span,
+        a.icon span::before,
+        a.icon span::after{
+          position: absolute;
+          top: 50%; margin-top: -1px;
+          left: 50%; margin-left: -10px;
+          width: 20px;
+          height: 2px;
+          background-color: #222;
+          
+        }
+        a.icon span::before,
+        a.icon span::after{
+          content: '';
+          
+        }
+        a.icon span::before{
+          transform: translateY(-5px);
+          
+        }
+        a.icon span::after{
+          transform: translateY(5px);
+          
+        }
+    .nav_item{
+        background-color: #FFF;
+    padding: 0px;
+    border-radius: 0px;
+    
+    }
+    .nav_button{
+        margin: 23px;
+        padding: 4px 35px 4px 35px;
+        background-color: #FF3561;
+        border-radius: 19px;
+        transition: transform 0.5s;
+        text-align: center;
+
+    }
+    .nav_item:hover{
+        transform: scale(1.05);
+        background-color: #fff;
+    }
+    .info{
+        font-size: 15px;
+        }
+    .logotip{
+        width: 100px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 15px;
+        }
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (max-width:899px){
+    .name_img{
+        width: 350px;
+        height: 300px;
+    }
+    .price_list{
+        margin-top: -19px;
+    }
+    .info{
+        font-size: 15px;
+        }
+    .logotip{
+        width: 100px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 15px;
+        }
+    .p{
+        font-size: 15px;
+        width: 200px;
+    }
+
+}
+@media only screen and (max-width:839px){
+    .name_img{
+        width: 324px;
+        height: 300px;
+    }
+    .info{
+        font-size: 15px;
+        }
+    .logotip{
+        width: 100px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 15px;
+        }
+
+}
+@media only screen and (max-width:768px){
+    .name_img{
+        width: 310px;
+        height: 300px;
+    }
+    .info{
+        font-size: 15px;
+        }
+    .logotip{
+        width: 100px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 15px;
+        }
+
+}
+@media only screen and (max-width:760px){
+    .name_img{
+        width: 310px;
+        height: 300px;
+    }
+    .info{
+        font-size: 15px;
+        }
+    .logotip{
+        width: 100px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 15px;
+        }
+    .img_nach{
+        width: 238px;
+        height:205px ;
+     }
+
+}
+@media only screen and (max-width:759px){
+    .name_img{
+        width: 310px;
+        height: 300px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .price_name{
+        padding: 13px 26px 13px 26px;
+    }
+    .info{
+        font-size: 15px;
+        }
+    .logotip{
+        width: 100px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 15px;
+        }
+
+}
+@media only screen and (max-width:729px){
+    .name_img{
+        width: 268px;
+        height: 300px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .price_name{
+        padding: 13px 26px 13px 26px;
+    }
+    .info{
+        font-size: 15px;
+        }
+    .logotip{
+        width: 98px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 15px;
+    }
+    .p{
+        width: 284px;
+
+    }
+    .img_desc{
+        width:332px ;
+        height: 300px;
+    }
+
+}
+@media only screen and (max-width:640px){
+    .name_img{
+        width: 253px;
+        height: 300px;
+    }
+    .name{
+        font-size: 11px;
+    }
+    .price_name{
+        padding: 13px 26px 13px 26px;
+    }
+    .info{
+        font-size: 12px;
+        }
+    .logotip{
+        width: 98px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 12px;
+        }
+    .p{
+        width: 246px;
+
+    }
+    .img_desc{
+        width:332px ;
+        height: 300px;
+    }
+
+}
+@media only screen and (max-width:605px){
+    .name_img{
+        width: 236px;
+        height: 153px;
+    }
+    .name{
+        font-size: 11px;
+    }
+    .price_name{
+        padding: 13px 26px 13px 26px;
+    }
+    .price{
+        font-size: 11px;
+    }
+    .info{
+        font-size: 12px;
+        }
+    .logotip{
+        width: 98px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 12px;
+    }
+    .p{
+        width:  300px;
+        font-size: 11px;
+    }
+
+}
+@media only screen and (max-width:558px){
+    .name_img{
+        width: 178px;
+        height: 106px;
+    }
+    .name{
+        font-size: 11px;
+    }
+    .price_name{
+        padding: 13px 26px 13px 26px;
+    }
+    .info{
+        font-size: 12px;
+        }
+    .logotip{
+        width: 98px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 12px;
+        }
+    .img_nach{
+        width: 238px;
+        height:205px ;
+    }
+    .p{
+        width:  221px;
+        font-size: 11px;
+    }
+    .img_desc{
+        width:260px ;
+        height: 216px;
+    }
+ }
+
+
+@media only screen and (max-width:490px){
+    .name_img{
+        width: 178px;
+        height: 67px;
+    }
+    .nach_img{
+        width:97px ;
+        height: 34px;
+    }
+    .name{
+        font-size: 9px;
+    }
+    .price_name{
+        padding: 4px 9px 9px 4px;
+    }
+    .flow1{
+        width: 23px;
+        height: 23px;
+    }
+    .flow2{
+        width: 23px;
+        height: 23px;
+    }
+    .price_item{
+        margin: 3px;
+    }
+    .price_item{
+        margin: 3px;
+    } 
+  
+    .info{
+        font-size: 9px;
+    }
+    .logotip{
+        width: 40px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 9px;
+    }
+    .img_nach{
+        width: 198px;
+        height:205px ;
+    }
+    .p{
+        width:  221px;
+        font-size: 11px;
+    }
+    .img_desc{
+        width:203px ;
+        height: 177px;
+    }
+
+}
+@media only screen and (max-width:400px){
+    .img_nach{
+        width: 162px;
+        height:205px ;
+    }
+    .p{
+        width:  221px;
+        font-size: 11px;
+    }
+    .img_desc{
+        width:157px ;
+        height: 129px;
+    }
+
+
+}
+@media only screen and (max-width:355px){
+    .name_img{
+        width: 178px;
+        height: 67px;
+    }
+    .name{
+        font-size: 9px;
+    }
+    .price_name{
+        padding: 4px 9px 9px 4px;
+    }
+    .flow1{
+        width: 23px;
+        height: 23px;
+    }
+    .flow2{
+        width: 23px;
+        height: 23px;
+    }
+    .price_item{
+        margin: 3px;
+    } 
+  
+    .info{
+        font-size: 9px;
+    }
+    .logotip{
+        width: 40px;
+        height: 40px;
+    }
+    .logo_p{
+        font-size: 9px;
+    }
+    .img_nach{
+        width: 129px;
+        height:205px ;
+    }
+    .p{
+        width: 193px;
+    }
+    .p{
+        width:  221px;
+        font-size: 9px;
+    }
+    .img_desc{
+        width:93px ;
+        height: 74px;
+    }
+
+}

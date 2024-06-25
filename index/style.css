@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&family=Tiro+Telugu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nova+Oval&family=Tiro+Telugu&display=swap');
+body{
+    font-weight: 400; 
+    font-family: 'Nanum Brush Script', cursive;
+    
+    
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+
+.nav_item {
+    background-color: #FF3561;
+    padding: 24px 81px 24px 81px;
+    border-radius: 19px;
+    transition: transform 0.5s;
+
+}
+.nav_item:hover{
+    transform: scale(1.05);
+    background-color: #ff7895;
+}
+.nav_button{
+    color: black;
+    font-size: 19px;
+
+}
+.active {
+    color: #6D172A;
+
+}
+
+.price_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+
+
+    margin-top: 56px;
+
+}
+.list_item{
+  
+    
+    
+
+}
+.price_item {
+height: auto;
+width: auto;
+transition: transform 0.5s;
+margin: 56px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.price_item:hover{
+    transform: scale(1.05);
+}
+.price_name {
+margin-top: 10px;
+
+
+border: 1px solid black;
+padding: 13px 52px 13px 52px;
+
+position: relative;
+}
+.flow1{
+position: absolute;
+left:-16px;
+top:-16px;
+}
+.flow2{
+    position: absolute;
+    right:-16px;
+    bottom:-16px;
+}
+.name{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.price {
+
+}
+.info_about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.info{
+    font-size: 24px;
+}
+.logo_p{
+    font-size: 24px;
+}
+.logo{
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.arrow_wripper {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.description_wrapper{
+display: flex;
+align-items: flex-start;
+justify-content: space-evenly;
+
+}
+
+.discription_name{
+    margin: 56px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.discription_p{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+
+    width: 365px;
+}
+.img_wrapper{
+    display: flex;
+    align-items: center;
+    grid-column: 1;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+
+
+}
+.p_wrapper{
+ 
+}
+
+.p{
+    display: flex;
+    text-align: center;
+    width: 410px;
+    font-size: 19px;
+}
+.price_one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.price_ind{
+    display: flex;
+    flex-direction: column;
+}
+.price_h1 {
+
+}
+.price_p {
+margin: 2px;
+font-size: 20px;
+}
+.span_price{
+    font-size: 29px;
+}
+.span_weight{
+    font-size: 29px;
+}
+
+.nachinka_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+
+
+    margin-top: 56px;
+}
+.img_nach{
+    width: 300px;
+    height: 300px;
+}
+.bezglut_nach{
+    display: block;
+}
+.otstup{
+    margin-top:3px ;
+    margin-bottom:52px ;
+}
+.preloader {
+    /*фиксированное позиционирование*/
+    position: fixed;
+    /* координаты положения */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* фоновый цвет элемента */
+    background: #ffff;
+    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+    z-index: 1001;
+  }
+  
+  .preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 70px;
+    margin-top: -119px;
+    margin-left: -295px;
+    text-align: center;
+    
+  }
+  
+  .preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: #FF3561;
+    border-radius: 10px;
+    width: 35px;
+    height: 70px;
+    animation: preloader-bounce 7s infinite ease-in-out;
+  }
+  
+  
+ .logo_preloader{
+  position: absolute;
+  top: -91px;
+  right: -108px;
+
+ }
+   @keyframes preloader-bounce {
+   from{
+    width: 35px;
+    height: 20px;
+
+   }
+   to{
+    width: 300px;
+    height: 20px;
+
+   }
+   }
+   .loaded_hiding .preloader  {
+    transition: 12.0s opacity;
+    opacity: 0;
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }
